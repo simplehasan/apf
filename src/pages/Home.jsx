@@ -1,7 +1,15 @@
+import { Col, Container, Row } from "react-bootstrap";
+
 const Home = () => {
     return (
         <>
-            <h1>Welcome to Homepage</h1>
+            <Container >
+                <Row>
+                    <Col>
+                        <h1>Executive Summary</h1>
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }
