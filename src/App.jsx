@@ -4,6 +4,10 @@ import Home from './pages/Home';
 import TopNav from './components/TopNav';
 import { ThemeProvider } from './context/ThemeContext';
 import Login from './pages/Login';
+import Chart from "chart.js/auto";
+import { CategoryScale } from "chart.js"
+
+Chart.register(CategoryScale);
 
 function App() {
   return (
